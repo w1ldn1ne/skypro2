@@ -39,7 +39,7 @@ public class Main {
         if (age2 >= 18 && age2 <= 24) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в университет");
         }
-        if (age2 >= 24) {
+        if (age2 > 24) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить на работу");
         }
 
@@ -59,7 +59,7 @@ public class Main {
         byte people = 59;
         byte capacity = 102;
         byte sitPlace = 60;
-        if (people > capacity) {
+        if (people >= capacity) {
             System.out.println("В вагоне нет мест");
         }
         else if (people < capacity && people > sitPlace) {
